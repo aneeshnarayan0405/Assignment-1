@@ -3,28 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# Virtual environment
 venv/
-ENV/
 .env/
 .venv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# PyInstaller
-*.spec
-build/
-dist/
-
-# Logs and databases
-*.log
-*.sqlite3
-*.db
-
-# OS-specific files
-.DS_Store
-Thumbs.db
 
 # Unit test / coverage reports
 htmlcov/
@@ -35,16 +20,22 @@ htmlcov/
 .cache
 .pytest_cache/
 
-# IDE files
+# VS Code / IDE settings
 .vscode/
 .idea/
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model / cache files (if downloaded)
+*.bin
+*.pt
+*.pkl
+
+# Temporary files
+*.tmp
 *.swp
-
-# Git metadata (already ignored by default)
-.git/
-.gitignore
-
-# Others
-*.zip
-*.tar
-*.gz
